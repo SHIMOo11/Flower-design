@@ -1,0 +1,180 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+/*--navbar--*/
+
+.navbar{
+    width: 100%;
+    height: 70px;
+}
+.navbar p{
+    font-size: 40px;
+    font-family: comfortaa;
+    float: left;
+    margin-top: 0;
+    padding: 10px;
+    color: #21455e;
+}
+.navbar ul{
+    list-style-type: none;
+    float: left;
+    margin-left: 45%;
+    width: 40%;
+    margin-top: 30px;
+}
+.navbar ul li{
+    display: inline;
+    margin-left: 3%;
+    font-family: comfortaa;
+    color: #21455e;
+}
+.navbar ul li:hover{
+    color: red;
+}
+
+/*--header--*/
+.header{
+    width: 100%;
+    height: 600px;
+    background-image: url(../img/sofa.jpg);
+    background-size: cover;
+    position: relative;
+}
+.opacity{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.5;
+}
+.header p{
+    position: absolute;
+    top: 220px;
+    left: 21%;
+    color: white;
+    font-family: comfortaa;;
+    font-size: 50px;
+    border-bottom: solid red;
+}
+/*--About--*/
+.about{
+    padding: 80px 0;
+}
+.about p{
+    float: left;
+    font-family: cairo;
+    width: 45%;
+    font-size: 25px;
+    margin-left: 5%;
+}
+.about p span{
+    display: block;
+    font-family: cairo;
+    font-size: 40px;
+    color: #21455e;
+    border-bottom: solid thin red;
+    text-transform: uppercase;
+    width: 30%;
+    margin-bottom: 20px;
+
+}
+.about img{
+    width: 40%;
+    height: 400px;
+    margin-left: 6%;
+    box-shadow: 10px 0 20px black;
+}
+.services{
+    padding: 80px 0;
+    background-image: url(../img/bedroom7.jpg);
+    background-size: cover;
+    position: relative;
+    height: 400px;
+}
+.services .opacity{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.7;
+    position: absolute;
+    left: 0; 
+    top: 0;
+}
+.services span{
+    color: white;
+    border-bottom: solid thin red;
+    font-family: cairo;
+    font-size: 50px;
+    position: absolute;
+    left: 37%;
+    z-index: 2;
+}
+.services .opacity .item{
+    font-family: karla;
+    font-size: 15px;
+    width: 20%;
+    height: 300px;
+    color: white;
+    text-align: center;
+    margin-top: 300px;
+    margin-left: 4%;
+    float: left;
+}
+.services .opacity .item i{
+    background-color: red;
+    padding: 10px;
+}
+/*-- our works--*/
+.our-works{
+    padding: 100px 0;
+}
+.our-works span{
+      color: ;  #21455e;
+    border-bottom: solid thin red;
+    font-family: cairo;
+    font-size: 50px;
+    text-transform: uppercase;
+    margin-left: 35%;
+}
+.our-works img{
+    width: 25%;
+    height: 250px;
+    margin: 3% 0 0 6.5%;
+}
+/*--contact-us--*/
+.contact-us{
+    padding: 100px 0;
+}
+.contact-us .item{
+    float: left;
+    width: 25%;
+    height: 100px;
+    margin-left: 6%;
+    box-shadow: 0 0 20px black;
+    text-align: center;
+    font-family: Karla;
+    padding-top: 30px;
+    font-size: 20px;
+    border-radius: 10px;
+    color: #21455e;
+}
+.contact-us ul{
+    list-style-type: none;
+    margin-top: 200px;
+    margin-left: 37%;
+}
+.contact-us ul li{
+    margin-left: 4%;
+    display: inline;
+    color: red;
+}
+.copyright{
+    background-color: black;
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    font-family: Karla;
+}
